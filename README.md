@@ -1,4 +1,4 @@
-# SDWAN-RL
+# SDWAN-MARL
 
 A custom Gymnasium environment for simulating dynamic overlay selection in SD-WAN and training agents with DQN and PPO algorithms.
 
