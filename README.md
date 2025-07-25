@@ -1,6 +1,6 @@
 # SDWAN-RL
 
-A custom Gymnasium environment for simulating SD-WAN overlays and training centralized DQN and PPO agents.
+A custom Gymnasium environment for simulating dynamic overlay selection in SD-WAN and training agents with DQN and PPO algorithms.
 
 ## Features
 - Multi-overlay request simulation
