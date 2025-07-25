@@ -18,11 +18,14 @@ Make sure the following system packages are installed:
 sudo apt-get update && sudo apt-get install -y swig cmake
 
 ### 2. Set Up Python Environment
-### You can use a virtual environment (recommended):
+
+You can use a virtual environment (recommended):
+
 python3 -m venv venv
 source venv/bin/activate
 
-### 2.1 install Python dependencies:
+install Python dependencies:
+
 pip install -r requirements.txt
 
 ### 3. Train the Agent
