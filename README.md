@@ -1,6 +1,6 @@
 # SDWAN-MARL
 
-A custom Gymnasium environment for simulating dynamic overlay selection in SD-WAN and training agents with DQN and PPO algorithms.
+A custom Multi-agent environment for simulating dynamic overlay selection in SD-WAN and training agents with DQN and PPO algorithms.
 
 ## Features
 - Multi-overlay request simulation
