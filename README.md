@@ -10,6 +10,22 @@ A custom Gymnasium environment for simulating dynamic overlay selection in SD-WA
 
 ## How to Run
 
-1. Install dependencies:
+### 1. Install System Dependencies
+
+Make sure the following system packages are installed:
+
 ```bash
+sudo apt-get update && sudo apt-get install -y swig cmake
+
+### 2. Set Up Python Environment
+### You can use a virtual environment (recommended):
+python3 -m venv venv
+source venv/bin/activate
+
+### 2.1 install Python dependencies:
 pip install -r requirements.txt
+
+### 3. Train the Agent
+To start training your agent (DQN or PPO), run:
+python train_dqn_ppo.py
+
