@@ -3,4 +3,5 @@ numpy
 torch
 matplotlib
 pandas
-stable-baselines3[extra]
+stable-baselines3[extra]>=2.0.0a4
+box2d-py 
