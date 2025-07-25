@@ -1,5 +1,6 @@
 from stable_baselines3.common.callbacks import BaseCallback
 
+# ---------------- Callback Definitions ----------------
 class EpisodeReturnLogger(BaseCallback):
     def __init__(self, verbose=0):
         super().__init__(verbose)
